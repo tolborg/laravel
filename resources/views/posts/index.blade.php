@@ -1,5 +1,7 @@
 @extends('partials/layout')
 
 @section('content')
-    omgomgomgm
+    @foreach ($posts as $post)
+        @include('posts/post')
+    @endforeach
 @endsection

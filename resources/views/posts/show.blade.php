@@ -1,5 +1,5 @@
 @extends('partials/layout')
 
 @section('content')
-    single
+    {{ $post->title }}
 @endsection
